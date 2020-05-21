@@ -1,0 +1,23 @@
+{
+    "name": "ted.bowman/hashtest",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ted Bowman",
+            "email": "ted@tedbow.com"
+        }
+    ],
+    "repositories": [
+       {
+           "type": "composer",
+           "url": "https://packages.drupal.org/8"
+       },
+       {
+           "type": "vcs",
+           "url": "https://github.com/rectorphp/rector-prefixed.git"
+       }
+   ],
+    "require": {
+        "rector/rector-prefixed": "dev-master#60bb958"
+    }
+}
